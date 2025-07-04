@@ -1,0 +1,429 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Main Container */
+.about-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+/* Header Section */
+.header-section {
+  background: linear-gradient(135deg, #1e3a8a 0%, #334155 100%);
+  color: white;
+  padding: 4rem 0;
+}
+
+.header-content {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.company-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.building-icon {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  color: #93c5fd;
+}
+
+.company-title h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.company-subtitle {
+  font-size: 1.25rem;
+  color: #bfdbfe;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+/* Main Content */
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+/* About Section */
+.about-section {
+  margin-bottom: 4rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.about-description {
+  color: #4b5563;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+}
+
+.company-info-card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+}
+
+.info-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+}
+
+.info-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #2563eb;
+  margin-right: 1rem;
+}
+
+.info-item h3 {
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+}
+
+.info-item p {
+  color: #6b7280;
+}
+
+/* Product Showcase */
+.product-showcase {
+  margin-bottom: 4rem;
+}
+
+.showcase-content {
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  border-radius: 1rem;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.showcase-icon {
+  width: 8rem;
+  height: 8rem;
+  margin: 0 auto 1.5rem;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.factory-icon {
+  width: 4rem;
+  height: 4rem;
+  color: #2563eb;
+}
+
+.showcase-content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.showcase-content p {
+  color: #6b7280;
+  font-size: 1.125rem;
+}
+
+/* Products Section */
+.products-section {
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.product-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.check-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #10b981;
+  margin-right: 0.75rem;
+  margin-top: 0.25rem;
+  flex-shrink: 0;
+}
+
+.product-card h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.core-products {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.core-products p {
+  color: #6b7280;
+  font-size: 1.125rem;
+}
+
+/* Advantages Section */
+.advantages-section {
+  margin-bottom: 4rem;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.advantage-card {
+  text-align: center;
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.advantage-card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.advantage-icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background: #dbeafe;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.advantage-icon {
+  color: #2563eb;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.advantage-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.advantage-card p {
+  color: #6b7280;
+}
+
+/* Export Section */
+.export-section {
+  margin-bottom: 4rem;
+}
+
+.export-card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+}
+
+.export-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.globe-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #2563eb;
+  margin-right: 0.75rem;
+}
+
+.export-header h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.markets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.market-item {
+  text-align: center;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.market-item:hover {
+  background: #eff6ff;
+  transform: translateY(-1px);
+}
+
+.market-flag {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.market-item h4 {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+/* Quality Section */
+.quality-section {
+  text-align: center;
+  background: linear-gradient(135deg, #1e3a8a 0%, #334155 100%);
+  color: white;
+  border-radius: 1rem;
+  padding: 3rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.quality-icon {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto 1.5rem;
+  color: #93c5fd;
+}
+
+.quality-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.quality-section p {
+  font-size: 1.25rem;
+  color: #bfdbfe;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .company-title h1 {
+    font-size: 2rem;
+  }
+  
+  .company-subtitle {
+    font-size: 1rem;
+  }
+  
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .about-text h2 {
+    font-size: 1.5rem;
+  }
+  
+  .about-description {
+    font-size: 1rem;
+  }
+  
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .advantages-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .markets-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .main-content {
+    padding: 2rem 1rem;
+  }
+  
+  .header-section {
+    padding: 2rem 0;
+  }
+}
