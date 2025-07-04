@@ -1,4 +1,6 @@
 import AboutUs from './components/About/About'
+import Navbar from './components/Navbar/Navbar'
+
 import './App.css'
 
 function App() {
