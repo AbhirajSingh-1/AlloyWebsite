@@ -360,7 +360,7 @@
 .menu-line {
   width: 1.2rem;
   height: 2px;
-  background: #000000;
+  background: #ffffff;
   transition: all 0.3s ease;
   border-radius: 1px;
 }

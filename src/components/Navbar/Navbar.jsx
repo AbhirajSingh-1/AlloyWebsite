@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="contact-info">
             <div className="contact-item">
               <Mail className="icon" />
-              <span>info@kashicartel.com</span>
+              <span>Kashicartel@gmail.com</span>
             </div>
             <div className="contact-item">
               <Phone className="icon" />
