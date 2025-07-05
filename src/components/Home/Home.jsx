@@ -81,7 +81,7 @@ const Home = () => {
               {/* ISO Certification Badge */}
               <div className="iso-badge">
                 <div className="badge-dot"></div>
-                <span>ISO 9001:2015 Certified</span>
+                <span>GST 06BEEPA8718J1ZI</span>
               </div>
 
               {/* Main Heading */}
