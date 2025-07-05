@@ -1,12 +1,73 @@
-# React + Vite
+📁 AlloyWebsite  
+A sleek and modular front-end web application built using **React.js**, **Vite**, and **Tailwind CSS**. The website includes sections like About, Contact, and Footer, designed with a focus on responsive UI and clean component architecture.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live at – https://www.kashicartel.com/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🏗️ Architecture Overview  
+The app is built as a **SPA (Single Page Application)** using Vite + React. It follows a modular design with separated components and assets for scalability and ease of maintenance.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔧 Core Components  
+- **About Section** – Brief info or mission statement of the website or organization  
+- **Contact Form** – Responsive contact section for user messages or inquiries  
+- **Footer** – Compact footer with links and credits  
+- **Assets Folder** – Contains images and icons used across the site  
+- **Routing & State** – React handles page transitions and component state where needed  
+
+---
+
+📊 System Architecture  
+
+       ┌──────────────────────────────┐
+       │         Web Client           │
+       │     (React + Vite App)       │
+       └──────────────┬───────────────┘
+                      │
+                      ▼
+       ┌──────────────────────────────┐
+       │       React Components       │
+       │  (About, Contact, Footer)    │
+       └──────────────┬───────────────┘
+                      │
+                      ▼
+       ┌──────────────────────────────┐
+       │         App Shell UI         │
+       │   (App.jsx + Tailwind CSS)   │
+       └──────────────────────────────┘
+                      │
+                      ▼
+       ┌──────────────────────────────┐
+       │        Static Assets         │
+       │   (Images, Icons, Styles)    │
+       └──────────────────────────────┘
+
+
+
+---
+
+🚀 Key Features  
+📌 Modular and reusable component design  
+📱 Mobile-responsive layout  
+🎨 Styled using **Tailwind CSS**  
+💡 Fast and modern development with **Vite**  
+📄 Clean and well-organized file structure  
+
+---
+
+🛠️ Technology Stack  
+
+🧑‍💻 Frontend  
+- **React.js** – UI library for building components  
+- **Vite** – Lightning-fast build tool and dev server  
+- **Tailwind CSS** – Utility-first CSS framework  
+
+Signing off
+
+This website is primarily focused used for a real buisness need, if you can to create any type of website for your buisness . contact us today !
+
+CONTACT -
+
+utsavjha.me@gmail.com
