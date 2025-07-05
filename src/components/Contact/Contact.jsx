@@ -1,11 +1,13 @@
-import './Contact.css'
+import "./Contact.css";
 
 export default function ContactForm() {
   return (
     <div className="contact-container">
       <div className="contact-header">
         <h1 className="contact-title">Contact Us</h1>
-        <p className="contact-subtitle">We work with many companies as well as institutions.</p>
+        <p className="contact-subtitle">
+          We work with many companies as well as institutions.
+        </p>
       </div>
 
       <div className="contact-info">
@@ -14,10 +16,15 @@ export default function ContactForm() {
           <div className="email-address">Kashicartel@gmail.com</div>
         </div>
 
-        <button className="calendly-button">
+        <a
+          href="https://wa.me/919821673232"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="calendly-button"
+        >
           <span className="calendly-icon">📅</span>
-         Contact on Whatsapp
-        </button>
+          Contact on WhatsApp
+        </a>
       </div>
 
       <div className="contact-form">
@@ -36,5 +43,5 @@ export default function ContactForm() {
         </div>
       </div>
     </div>
-  )
+  );
 }
