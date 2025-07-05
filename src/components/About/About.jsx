@@ -1,7 +1,7 @@
 import React from 'react';
 import { Building2, Award, Globe, Users, Star, CheckCircle, Factory, Truck, Timer } from 'lucide-react';
 import './About.css';
-
+import metal1 from "../../assets/metal1.jpg"
 const AboutUs = () => {
   const products = [
     "Tri-metal Electrical Contact Rivets",
@@ -93,7 +93,7 @@ const AboutUs = () => {
               <Factory className="factory-icon" />
             </div>
             <h3>Product Showcase</h3>
-            <p>Add your product image here to showcase your high-quality rivets and electrical contacts</p>
+             <img src={metal1} alt="Product Showcase" className="responsive-img" />
           </div>
         </div>
 
