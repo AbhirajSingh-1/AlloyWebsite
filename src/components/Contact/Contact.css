@@ -63,6 +63,7 @@
   color: #2c3e50;
   cursor: pointer;
   transition: all 0.2s ease;
+  text-decoration: none;
 }
 
 .calendly-button:hover {
