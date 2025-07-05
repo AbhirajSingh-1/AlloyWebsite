@@ -43,6 +43,16 @@ const AboutUs = () => {
         </div>
       </div>
 
+      <section className="founder-section">
+      <div className="founder-container">
+        <h3 className="founder-title">Founder</h3>
+        <p className="founder-text">
+          <strong>Sakshi Anand</strong> is the visionary founder of Kashi Cartel, leading the company with dedication,
+          innovation, and a commitment to quality in the precision metal industry.
+        </p>
+      </div>
+    </section>
+    
       {/* Main Content */}
       <div className="main-content">
         
@@ -162,6 +172,9 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
+
+      
+
     </div>
   );
 };

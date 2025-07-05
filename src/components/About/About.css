@@ -398,3 +398,30 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+
+.founder-section {
+  background-color: #0f172a;
+  padding: 2rem 1rem;
+  color: #e2e8f0;
+  text-align: center;
+  border-top: 1px solid #1e293b;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.founder-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.founder-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f97316;
+  margin-bottom: 0.75rem;
+}
+
+.founder-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #cbd5e1;
+}

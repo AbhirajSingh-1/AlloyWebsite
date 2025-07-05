@@ -65,9 +65,9 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: '25+', label: 'Years Experience' },
+    { number: '5+', label: 'Years Experience' },
     { number: '500+', label: 'Product Variants' },
-    { number: '1000+', label: 'Satisfied Clients' }
+    { number: '200+', label: 'Satisfied Clients' }
   ];
 
   return (
@@ -287,6 +287,16 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
+      <section className="founder-section">
+      <div className="founder-container">
+        <h3 className="founder-title">Founder</h3>
+        <p className="founder-text">
+          <strong>Sakshi Anand</strong> is the visionary founder of Kashi Cartel, leading the company with dedication,
+          innovation, and a commitment to quality in the precision metal industry.
+        </p>
+      </div>
+    </section>
     </div>
   );
 };

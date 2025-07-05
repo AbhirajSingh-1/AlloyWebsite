@@ -31,7 +31,7 @@ export default function ContactForm() {
         <div className="embedded-form-container">
           <iframe
             title="Contact Form"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSf2exUF-aCrJGQdMtXrL1RPx9AO-oyBAX7YJh0xhDGOOow6bQ/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdGMspwWEjT0HYF9Dz7i7V-pWw7OwY4XWrDac03D8aNBnsPkQ/viewform?usp=header"
             width="100%"
             height="800"
             frameBorder="0"
