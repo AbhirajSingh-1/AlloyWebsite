@@ -54,5 +54,6 @@ This project was built for a real client and handed over for deployment and live
 👤 Developed By
 Abhiraj Singh
 Frontend Developer & UI/UX Designer
+
 📄 License
 This project is for portfolio/showcase purposes only. All rights reserved to Kashi Cartel.
