@@ -1,73 +1,36 @@
-📁 AlloyWebsite  
-A sleek and modular front-end web application built using **React.js**, **Vite**, and **Tailwind CSS**. The website includes sections like About, Contact, and Footer, designed with a focus on responsive UI and clean component architecture.
+ # Kashi Cartel 🌸
 
-Live at – https://www.kashicartel.com/
+A premium handcrafted website built for **Kashi Cartel**, a brand celebrating the essence of Banaras through sustainable fashion and traditional art. This project showcases an elegant, responsive design with modern UI/UX tailored to the client's vision.
 
----
+## 🌐 Live Website
 
-🏗️ Architecture Overview  
-The app is built as a **SPA (Single Page Application)** using Vite + React. It follows a modular design with separated components and assets for scalability and ease of maintenance.
+👉 [www.kashicartel.com](https://www.kashicartel.com)
 
 ---
 
-🔧 Core Components  
-- **About Section** – Brief info or mission statement of the website or organization  
-- **Contact Form** – Responsive contact section for user messages or inquiries  
-- **Footer** – Compact footer with links and credits  
-- **Assets Folder** – Contains images and icons used across the site  
-- **Routing & State** – React handles page transitions and component state where needed  
+## ✨ Features
+
+- ⚡️ Fully responsive website (mobile, tablet, desktop)
+- 🎨 Aesthetic, clean design with soft animations
+- 🛍️ Product showcase section (handloom, apparel, art)
+- 📍 About Us, Contact, Gallery, and Team pages
+- 📞 WhatsApp "Get Quote" button for instant leads
+- 🧭 Smooth navigation and scroll animations
+- 📩 Contact form with email integration (optional feature)
+- 🌍 Domain hosted with Vercel
 
 ---
 
-📊 System Architecture  
+## 🛠 Tech Stack
 
-       ┌──────────────────────────────┐
-       │         Web Client           │
-       │     (React + Vite App)       │
-       └──────────────┬───────────────┘
-                      │
-                      ▼
-       ┌──────────────────────────────┐
-       │       React Components       │
-       │  (About, Contact, Footer)    │
-       └──────────────┬───────────────┘
-                      │
-                      ▼
-       ┌──────────────────────────────┐
-       │         App Shell UI         │
-       │   (App.jsx + Tailwind CSS)   │
-       └──────────────────────────────┘
-                      │
-                      ▼
-       ┌──────────────────────────────┐
-       │        Static Assets         │
-       │   (Images, Icons, Styles)    │
-       └──────────────────────────────┘
-
-
+| Frontend   | Styling         | Deployment |
+|------------|-----------------|------------|
+| React.js   |   CSS           | Vercel     |
+| HTML/CSS   | Custom CSS/JS   |            |
 
 ---
-
-🚀 Key Features  
-📌 Modular and reusable component design  
-📱 Mobile-responsive layout  
-🎨 Styled using **Tailwind CSS**  
-💡 Fast and modern development with **Vite**  
-📄 Clean and well-organized file structure  
-
----
-
-🛠️ Technology Stack  
-
-🧑‍💻 Frontend  
-- **React.js** – UI library for building components  
-- **Vite** – Lightning-fast build tool and dev server  
-- **Tailwind CSS** – Utility-first CSS framework  
-
-Signing off
-
-This website is primarily focused used for a real buisness need, if you can to create any type of website for your buisness . contact us today !
-
-CONTACT -
-
-utsavjha.me@gmail.com
+👤 Developed By
+Abhiraj Singh
+Frontend Developer & UI/UX Designer
+📄 License
+This project is for portfolio/showcase purposes only. All rights reserved to Kashi Cartel.
